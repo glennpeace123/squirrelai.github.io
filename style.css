@@ -21,7 +21,7 @@ body {
 .logo {
   width: 120px;
   position: absolute;   /* 让 logo 可以自由定位 */
-  top: 40px;            /* 距离卡片顶部 40px，根据实际需要调整 */
+  top: 20px;            /* 距离卡片顶部 40px，根据实际需要调整 */
   left: 20px;           /* 向左对齐，数值可调 */
 }
 
@@ -31,7 +31,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin: 15px 0;
-  border: 4px solid #1E90FF; /* 亮蓝色边框 (DodgerBlue) */
+  border: 4px solid #0A2E5C; /* 亮蓝色边框 (DodgerBlue) */
 }
 
 
