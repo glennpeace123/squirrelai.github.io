@@ -20,11 +20,10 @@ body {
 
 .logo {
   width: 120px;
-  position: relative;
-  top: -20px; /* 往上移动 20px */
+  position: absolute;   /* 让 logo 可以自由定位 */
+  top: 40px;            /* 距离卡片顶部 40px，根据实际需要调整 */
+  left: 20px;           /* 向左对齐，数值可调 */
 }
-
-
 
 .avatar {
   width: 120px;
@@ -32,8 +31,9 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin: 15px 0;
-  border: 4px solid #0A2E5C; /* 深蓝色边框 */
+  border: 4px solid #1E90FF; /* 亮蓝色边框 (DodgerBlue) */
 }
+
 
 h2 {
   margin: 10px 0 5px;
